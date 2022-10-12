@@ -46,7 +46,7 @@ header li :nth-child(2) img {
 }
 header li span {
   position: fixed;
-  top: 18px;
+  top: 20px;
   right: 145px;
   color: #f5621f;
   font-weight: medium;
@@ -123,4 +123,149 @@ header li p {
 .buy-now button {
   width: 176px;
   height: 46px;
+}
+.four-box {
+  padding: 70px 0;
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.four-box .box1 {
+  max-width: 277px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #f1f7e9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.four-box .icon1-background {
+  width: 44px;
+  height: 44px;
+  background-color: #e3f0d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.four-box .box1 img {
+  width: 18px;
+  height: 18px;
+}
+.four-box .box1 p {
+  width: 120px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #111111;
+  line-height: 1.2;
+}
+.four-box .box1 span {
+  color: #7bb735;
+}
+.four-box .box2 {
+  max-width: 277px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #feefe8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.four-box .icon2-background {
+  width: 44px;
+  height: 44px;
+  background-color: #fddfd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.four-box .box2 img {
+  width: 18px;
+  height: 18px;
+}
+.four-box .box2 p {
+  width: 120px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #111111;
+  line-height: 1.2;
+}
+.four-box .box2 span {
+  color: #f5621f;
+}
+.four-box .box3 {
+  max-width: 277px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #ebf7fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.four-box .icon3-background {
+  width: 44px;
+  height: 44px;
+  background-color: #c8e8f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.four-box .box3 img {
+  width: 18px;
+  height: 18px;
+}
+.four-box .box3 p {
+  width: 120px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #111111;
+  line-height: 1.2;
+}
+.four-box .box3 span {
+  color: #3cabe0;
+}
+.four-box .box4 {
+  max-width: 277px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #faf4fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.four-box .icon4-background {
+  width: 44px;
+  height: 44px;
+  background-color: #f1e1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.four-box .box4 img {
+  width: 18px;
+  height: 18px;
+}
+.four-box .box4 p {
+  width: 120px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #111111;
+  line-height: 1.2;
+}
+.four-box .box4 span {
+  color: #cc96d0;
 }
