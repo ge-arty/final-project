@@ -120,9 +120,11 @@ header li p {
   text-align: center;
   font-size: 24px;
 }
-.buy-now button {
+button {
   width: 176px;
   height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 .four-box {
   padding: 70px 0;
@@ -304,12 +306,6 @@ header li p {
 .dogg h2 {
   padding-top: 50px;
 }
-.dogg button {
-  max-width: 161px;
-  width: 100%;
-  height: 42px;
-  border-radius: 10px;
-}
 .animals-box {
   max-width: 782px;
   width: 100%;
@@ -378,12 +374,7 @@ header li p {
   align-items: center;
   justify-content: flex-start;
 }
-.cat button {
-  max-width: 161px;
-  width: 100%;
-  height: 42px;
-  border-radius: 10px;
-}
+
 .cat .cat-img1 {
   position: absolute;
   bottom: 0;
@@ -399,6 +390,16 @@ header li p {
   margin: 0 auto;
   max-width: 1366px;
   padding-top: 70px;
+}
+.top-product-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-product h3 {
+  padding-right: 90px;
+  font-size: 14px;
+  color: #9c9c9c;
 }
 .top-product h2 {
   padding-left: 90px;
@@ -529,4 +530,76 @@ header li p {
   position: absolute;
   background-color: white;
   top: 50px;
+}
+.advertisment {
+  width: 87%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.advertis-containers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  border: 1px solid black;
+}
+.advertis-containers .acontainer1 {
+  max-width: 378px;
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.advertis-containers .acontainer1 p {
+  text-align: center;
+  float: right;
+  width: 200px;
+  height: 64px;
+  font-size: 24px;
+  padding-top: 40px;
+}
+.advertis-containers .acontainer1 span {
+  background: linear-gradient(
+    to right,
+    orange,
+    rgb(21, 244, 177),
+    red,
+    rgb(4, 156, 4),
+    rgb(214, 126, 19),
+    rgb(231, 9, 231),
+    rgba(182, 168, 168, 0.856),
+    rgb(17, 104, 17),
+    black
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.acontainer1 .cards {
+  position: absolute;
+  bottom: -55px;
+}
+.acontainer2 {
+  max-width: 378px;
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+  background-color: #fee02e;
+}
+.acontainer2 p {
+  width: 220px;
+  height: 55px;
+}
+.acontainer2 .rabbit-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.acontainer3 {
+  max-width: 378px;
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
 }
