@@ -10,10 +10,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: #ffffff;
   height: 110px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  box-shadow: 2px 2px #f6f7f9;
+  border: 2px solid #f6f7f9;
 }
 header .logo {
   padding-left: 35px;
@@ -53,4 +55,72 @@ header li p {
   color: #111111;
 }
 .buy-now {
+  width: 87%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.buy-now .background {
+  background: url("../images/Rectangle\ 3.png") no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  height: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-now .arrow-left {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+}
+.buy-now .arrow-right {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+}
+.buy-now .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 30px;
+}
+.buy-now .scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5px;
+  width: 68px;
+}
+.buy-now .first {
+  width: 28px;
+  background-color: #ffffff;
+  height: 5px;
+}
+.buy-now .second {
+  width: 12px;
+  height: 5px;
+  background-color: #9aa4a4;
+}
+.buy-now p {
+  color: #ffffff;
+  width: 354px;
+  height: 96px;
+  text-align: center;
+  font-size: 24px;
+}
+.buy-now button {
+  width: 176px;
+  height: 46px;
 }
