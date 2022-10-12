@@ -2,6 +2,7 @@ body {
   max-width: 1366px;
   width: 100%;
   margin: 0 auto;
+  background-color: #fafafa;
 }
 header {
   width: 93%;
@@ -42,7 +43,7 @@ header li :nth-child(2) img {
   position: relative;
 }
 header li span {
-  position: absolute;
+  position: fixed;
   top: 18px;
   right: 145px;
   color: #f5621f;
@@ -50,4 +51,6 @@ header li span {
 }
 header li p {
   color: #111111;
+}
+.buy-now {
 }
