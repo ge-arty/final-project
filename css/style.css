@@ -1010,7 +1010,7 @@ ul {
   }
 
   .mobile-footer {
-    display: block;
+    display: none;
   }
 
   .turtle p {
