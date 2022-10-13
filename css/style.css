@@ -1050,7 +1050,7 @@ ul {
   }
   .turtle {
     height: 300px;
-    display: none;
+    display: display;
   }
   .turtle img {
     right: 0px;
