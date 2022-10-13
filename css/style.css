@@ -989,6 +989,7 @@ ul {
   .product-arrow-right {
     display: none;
   }
+}
 @media (max-width: 480px) {
   header nav {
     display: none;
@@ -1007,10 +1008,9 @@ ul {
     height: 175px;
     bottom: -50px;
   }
-  .turtle button {
-    /* margin-bottom: 30px; */
+
   }
-  .turtle p{
+  .turtle p {
     padding-top: 0;
     padding-left: 20px;
   }
