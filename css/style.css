@@ -41,13 +41,14 @@ header li img {
   width: 22px;
   height: 22px;
 }
-header ul :nth-child(2) li {
+header ul li:nth-child(2){
   position: relative;
 }
 header li span {
   position: absolute;
-  top: 20px;
-  right: 145px;
+  top: -8px;
+  /* right: 15px; */
+  right: 0px;
   color: #f5621f;
   font-weight: medium;
 }
@@ -125,6 +126,7 @@ button {
   height: 46px;
   border-radius: 10px;
   background-color: #ffffff;
+  cursor: pointer;
 }
 .four-box {
   padding: 70px 0;
@@ -328,7 +330,7 @@ button {
   max-width: 378px;
   width: 100%;
   height: 202px;
-  border: 1px solid black;
+  
   position: relative;
   background-color: #3cabe0;
   border-radius: 10px;
@@ -346,7 +348,7 @@ button {
   max-width: 378px;
   width: 100%;
   height: 202px;
-  border: 1px solid black;
+  
   position: relative;
   background-color: #74b42c;
   border-radius: 10px;
@@ -365,7 +367,7 @@ button {
   width: 100%;
   max-width: 782px;
   height: 200px;
-  border: 1px solid black;
+  
   border-radius: 10px;
   background-color: #f5ad00;
   position: relative;
@@ -425,7 +427,7 @@ button {
   width: 100%;
   height: 441px;
   position: relative;
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -493,7 +495,7 @@ button {
   width: 98px;
   height: 25px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   position: absolute;
   left: 32px;
@@ -510,7 +512,6 @@ button {
 .buy-cart1 {
   width: 34px;
   height: 34px;
-  background-color: #74b42c;
   position: absolute;
   right: 30px;
   bottom: 30px;
@@ -542,13 +543,13 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
-  border: 1px solid black;
+  
 }
 .advertis-containers .acontainer1 {
   max-width: 378px;
   width: 100%;
   height: 500px;
-  border: 1px solid black;
+  
   position: relative;
 }
 
@@ -574,6 +575,7 @@ button {
     black
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 .acontainer1 .cards {
@@ -584,7 +586,7 @@ button {
   max-width: 378px;
   width: 100%;
   height: 500px;
-  border: 1px solid black;
+
   position: relative;
   background-color: #fee02e;
 }
@@ -601,5 +603,113 @@ button {
   max-width: 378px;
   width: 100%;
   height: 500px;
-  border: 1px solid black;
 }
+.abox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 378px;
+}
+.abox_left_arrow img {
+  width: 80px;
+  height: 80px;
+}
+.abox_right_arrow img{
+  width: 80px;
+  height: 80px;
+}
+.pedigree {
+  width: 200px;
+  height: 270px;
+}
+.acontainer3 p {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.acontainer3 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acontainer3 button {
+margin-left: 100px;
+margin-top: 40px;
+}
+.turtle {
+  width: 87%;
+  margin: 0 auto;
+  background-color: #f5621f;
+  position: relative;
+  height: 200px;
+  border-radius: 10px;
+}
+.turtle img {
+  position: absolute;
+  bottom: -100px;
+  right: 100px;
+  width: 600px;
+  height: 350px;
+}
+.turtle p {
+  color: white;
+  width: 300px;
+  padding-left: 40px;
+}
+.turtle button {
+  margin-left: 40px;
+}
+.latest-update {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 70px 0;
+}
+.latest-update h2 {
+  padding-left: 90px;
+  font-size: 28px;
+  color: #111111;
+}
+.latest-update h3 {
+  padding-right: 90px;
+  font-size: 14px;
+  color: #9c9c9c;
+}
+.latest-update .buy-cart2 {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-brands {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+}
+.all-brands h3 {
+  padding-left: 90px;
+  padding-top: 70px;
+  padding-bottom: 35px;
+  font-size: 28px;
+  color: #111111;
+}
+.brands-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.brands {
+  max-width: 175px;
+  width: 100%;
+  height: 90px;
+}
+
+
+
