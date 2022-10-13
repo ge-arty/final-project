@@ -1008,26 +1008,24 @@ ul {
     height: 175px;
     bottom: -50px;
   }
-
-  }
-  .turtle p {
-    padding-top: 0;
-    padding-left: 20px;
-  }
-  .footer-container {
-    display: none;
-  }
-  .mobile-footer {
-    display: block;
-  }
-  .mobile-footer ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .brands-container {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-  }
+}
+.turtle p {
+  padding-top: 0;
+  padding-left: 20px;
+}
+.footer-container {
+  display: none;
+}
+.mobile-footer {
+  display: block;
+}
+.mobile-footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brands-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
