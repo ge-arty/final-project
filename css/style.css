@@ -1033,4 +1033,7 @@ ul {
   .all-brands h3 {
     display: none;
   }
+  .visa-img {
+    justify-content: center;
+  }
 }
