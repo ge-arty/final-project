@@ -1010,7 +1010,7 @@ ul {
   }
 
   .mobile-footer {
-    display: none;
+    display: block;
   }
 
   .turtle p {
@@ -1023,9 +1023,8 @@ ul {
 
   .mobile-footer ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    column-gap: 40px;
   }
   .brands-container {
     display: none;
