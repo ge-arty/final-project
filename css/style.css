@@ -1036,4 +1036,7 @@ ul {
   .visa-img {
     justify-content: center;
   }
+  .cat-img1 {
+    display: none;
+  }
 }
