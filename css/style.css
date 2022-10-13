@@ -799,6 +799,8 @@ button {
   align-items: center;
   flex-wrap: wrap;
   row-gap: 20px;
+  column-gap: 3px;
+  max-width: 1366px;
 }
 .brands {
   max-width: 175px;
@@ -977,7 +979,7 @@ ul {
   }
   .brands-container {
     justify-content: center;
-    gap: 20px;
+    row-gap: 20px;
   }
   .mobile-footer {
     display: none;
