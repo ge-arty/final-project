@@ -1062,6 +1062,14 @@ ul {
   .turtle img {
     right: 0px;
   }
+  .map-container {
+    margin-left: 45px;
+    align-items: center;
+    row-gap: 50px;
+  }
+  iframe {
+    margin: 0;
+  }
 }
 
 @keyframes example {
@@ -1083,4 +1091,46 @@ ul {
   100% {
     background-color: white;
   }
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+iframe {
+  display: block;
+  height: 400px;
+}
+.map-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.map-contact ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+.map-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.map-contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 25px;
+  color: #111111;
+}
+p {
+  font-family: BPG Nino Mtavruli;
 }

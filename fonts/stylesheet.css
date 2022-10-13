@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BPG Nino Mtavruli';
+    src: url('BPGNinoMtavruli-Bold.eot');
+    src: url('BPGNinoMtavruli-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BPGNinoMtavruli-Bold.woff2') format('woff2'),
+        url('BPGNinoMtavruli-Bold.woff') format('woff'),
+        url('BPGNinoMtavruli-Bold.ttf') format('truetype'),
+        url('BPGNinoMtavruli-Bold.svg#BPGNinoMtavruli-Bold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
