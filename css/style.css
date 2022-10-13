@@ -1040,6 +1040,18 @@ ul {
     display: none;
   }
   .turtle {
-    display: none;
+    width: 350px;
+  }
+  .acontainer2 {
+    width: 300px;
+  }
+  .rabbit-img {
+    width: 300px;
+  }
+  .turtle {
+    height: 300px;
+  }
+  .turtle img {
+    right: 0px;
   }
 }
