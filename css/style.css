@@ -1136,7 +1136,14 @@ iframe {
 p {
   font-family: BPG Nino Mtavruli;
 }
-
+.about-us-page {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .about-us-page div {
   max-width: 984px;
   height: 400px;
