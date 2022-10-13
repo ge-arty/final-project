@@ -1049,9 +1049,10 @@ ul {
     width: 300px;
   }
   .turtle {
-    height: 300px;
+    /* height: 300px;  */
+    display: none;
   }
-  .turtle img {
+  /* .turtle img {
     right: 0px;
-  }
+  } */
 }
