@@ -41,7 +41,7 @@ header li img {
   width: 22px;
   height: 22px;
 }
-header ul li:nth-child(2){
+header ul li:nth-child(2) {
   position: relative;
 }
 header li span {
@@ -127,6 +127,7 @@ button {
   border-radius: 10px;
   background-color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 .four-box {
   padding: 70px 0;
@@ -304,9 +305,13 @@ button {
   max-width: 259px;
   width: 100%;
   color: white;
+  font-size: 20px;
+  line-height: 23px;
 }
 .dogg h2 {
   padding-top: 50px;
+  font-size: 16px;
+  color: #ffffff;
 }
 .animals-box {
   max-width: 782px;
@@ -330,7 +335,6 @@ button {
   max-width: 378px;
   width: 100%;
   height: 202px;
-  
   position: relative;
   background-color: #3cabe0;
   border-radius: 10px;
@@ -344,11 +348,22 @@ button {
   left: 0;
   bottom: 0;
 }
+.fish p {
+  color: white;
+  font-size: 21px;
+  width: 271px;
+  padding-top: 50px;
+  padding-left: 20px;
+  line-height: 23px;
+}
+.fish button {
+  margin-top: 30px;
+  margin-left: 145px;
+}
 .parrot {
   max-width: 378px;
   width: 100%;
   height: 202px;
-  
   position: relative;
   background-color: #74b42c;
   border-radius: 10px;
@@ -363,11 +378,21 @@ button {
   bottom: 0;
   width: 200px;
 }
+.parrot button {
+  margin-top: 30px;
+}
+.parrot p {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  width: 262px;
+  text-align: center;
+  line-height: 23px;
+}
 .cat {
   width: 100%;
   max-width: 782px;
   height: 200px;
-  
   border-radius: 10px;
   background-color: #f5ad00;
   position: relative;
@@ -386,6 +411,17 @@ button {
   position: absolute;
   right: -30px;
   bottom: -44px;
+}
+.cat p {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  width: 262px;
+  text-align: center;
+  line-height: 23px;
+}
+.cat button {
+  margin-top: 10px;
 }
 .top-product {
   width: 100%;
@@ -427,7 +463,7 @@ button {
   width: 100%;
   height: 441px;
   position: relative;
-  
+
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -543,13 +579,11 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
-  
 }
 .advertis-containers .acontainer1 {
   max-width: 378px;
   width: 100%;
   height: 500px;
-  
   position: relative;
 }
 
@@ -603,6 +637,7 @@ button {
   max-width: 378px;
   width: 100%;
   height: 500px;
+  background-color: #ffffff;
 }
 .abox {
   display: flex;
@@ -610,11 +645,11 @@ button {
   align-items: center;
   width: 378px;
 }
-.abox_left_arrow img {
+.abox-left-arrow img {
   width: 80px;
   height: 80px;
 }
-.abox_right_arrow img{
+.abox-right-arrow img {
   width: 80px;
   height: 80px;
 }
@@ -632,8 +667,10 @@ button {
   justify-content: center;
 }
 .acontainer3 button {
-margin-left: 100px;
-margin-top: 40px;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: #111111;
+  color: #ffffff;
 }
 .turtle {
   width: 87%;
@@ -710,6 +747,87 @@ margin-top: 40px;
   width: 100%;
   height: 90px;
 }
-
-
-
+footer {
+  width: 87%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 213px;
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 378px;
+  height: 213px;
+}
+.logo-text p {
+  color: #6e6e6e;
+  font-size: 12px;
+  line-height: 23px;
+}
+.category {
+  width: 95px;
+}
+.category h2 {
+  font-size: 14px;
+  color: #111111;
+  padding-bottom: 10px;
+}
+.category ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 5px;
+  color: #6e6e6e;
+  font-size: 12px;
+}
+.menu {
+  width: 124px;
+}
+.menu h2 {
+  font-size: 14px;
+  color: #111111;
+  padding-bottom: 10px;
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 5px;
+  color: #6e6e6e;
+  font-size: 12px;
+}
+.menu p {
+  color: #6e6e6e;
+  font-size: 12px;
+  line-height: 23px;
+}
+.contact {
+  width: 176px;
+}
+.contact h2 {
+  font-size: 14px;
+  color: #111111;
+  padding-bottom: 10px;
+}
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+  color: #6e6e6e;
+  font-size: 12px;
+}
+.visa-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
