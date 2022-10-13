@@ -59,6 +59,14 @@ header li p {
   margin: 0 auto;
   padding: 70px 0;
 }
+.burger {
+  padding: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: example 10s infinite;
+}
 
 .buy-now .background {
   background: url("../images/Rectangle\ 3.png") no-repeat;
@@ -1053,5 +1061,26 @@ ul {
   }
   .turtle img {
     right: 0px;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: white;
+  }
+  20% {
+    background-color: red;
+  }
+  40% {
+    background-color: blue;
+  }
+  60% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: white;
   }
 }
