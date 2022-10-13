@@ -609,7 +609,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 20px;
+  row-gap: 60px;
 }
 .advertis-containers .acontainer1 {
   max-width: 378px;
@@ -686,7 +686,7 @@ button {
   line-height: 23px;
   color: #111111;
   font-size: 22px;
-  width: 187px;
+  width: 160px;
   text-align: center;
   line-height: 30px;
 }
@@ -719,7 +719,7 @@ button {
 }
 .acontainer3 button {
   margin-left: 100px;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #111111;
   color: #ffffff;
 }
