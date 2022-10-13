@@ -8,7 +8,7 @@ header {
   width: 93%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #ffffff;
   height: 110px;
@@ -17,8 +17,9 @@ header {
   box-shadow: 2px 2px #f6f7f9;
   border: 2px solid #f6f7f9;
 }
-header .logo {
-  padding-left: 35px;
+
+header nav {
+  row-gap: 20px;
 }
 
 header ul {
@@ -26,8 +27,7 @@ header ul {
   justify-content: center;
   align-items: center;
   height: 53px;
-  gap: 30px;
-  padding-right: 35px;
+  column-gap: 30px;
 }
 header li {
   height: 100%;
@@ -946,6 +946,7 @@ ul {
   }
   .animals {
     justify-content: center;
+    align-items: center;
   }
   .top-product-titles h3 {
     display: none;
@@ -988,5 +989,45 @@ ul {
   .product-arrow-right {
     display: none;
   }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+  header .logo {
+    display: none;
+  }
+  .background .arrow-left {
+    display: none;
+  }
+  .background .arrow-right {
+    display: none;
+  }
+  .turtle img {
+    width: 300px;
+    height: 175px;
+    bottom: -50px;
+  }
+  .turtle button {
+    /* margin-bottom: 30px; */
+  }
+  .turtle p{
+    padding-top: 0;
+    padding-left: 20px;
+  }
+  .footer-container {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+  }
+  .mobile-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brands-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
 }
