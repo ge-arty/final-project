@@ -556,6 +556,32 @@ button {
   justify-content: center;
   align-items: center;
 }
+.out-of-stock {
+  position: absolute;
+  bottom: 40px;
+  left: 45px;
+  font-size: 14px;
+  color: #111111;
+}
+.price4 {
+  position: absolute;
+  bottom: 40px;
+  left: 45px;
+  font-size: 24px;
+}
+.added-to-cart {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  background-color: #f5621f;
+  color: white;
+  width: 114px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
 .product p {
   font-size: 12px;
   color: #6e6e6e;
@@ -563,10 +589,15 @@ button {
   left: 60px;
   top: 236px;
 }
+.product h3 {
+  padding-left: 50px;
+  font-size: 18px;
+  color: #111111;
+}
 .product-picture {
   position: absolute;
   background-color: white;
-  top: 50px;
+  top: 30px;
 }
 .advertisment {
   width: 87%;
@@ -616,6 +647,9 @@ button {
   position: absolute;
   bottom: -55px;
 }
+.acontainer1 p {
+  line-height: 30px;
+}
 .acontainer2 {
   max-width: 378px;
   width: 100%;
@@ -627,6 +661,15 @@ button {
 .acontainer2 p {
   width: 220px;
   height: 55px;
+  padding-top: 70px;
+  padding-left: 50px;
+  line-height: 30px;
+  color: #111111;
+  font-size: 22px;
+}
+.acontainer2 button {
+  margin-top: 70px;
+  margin-left: 50px;
 }
 .acontainer2 .rabbit-img {
   position: absolute;
@@ -638,6 +681,14 @@ button {
   width: 100%;
   height: 500px;
   background-color: #ffffff;
+}
+.acontainer3 p {
+  line-height: 23px;
+  color: #111111;
+  font-size: 22px;
+  width: 187px;
+  text-align: center;
+  line-height: 30px;
 }
 .abox {
   display: flex;
@@ -711,7 +762,7 @@ button {
   font-size: 14px;
   color: #9c9c9c;
 }
-.latest-update .buy-cart2 {
+.buy-cart2 {
   width: 34px;
   height: 34px;
   position: absolute;
