@@ -47,7 +47,6 @@ header ul li:nth-child(2) {
 header li span {
   position: absolute;
   top: -8px;
-  /* right: 15px; */
   right: 0px;
   color: #f5621f;
   font-weight: medium;
@@ -435,7 +434,6 @@ button {
   align-items: center;
 }
 .top-product h3 {
-  padding-right: 90px;
   font-size: 14px;
   color: #9c9c9c;
 }
@@ -563,15 +561,22 @@ button {
   font-size: 14px;
   color: #111111;
 }
+
+.price2 {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  font-size: 24px;
+}
 .price4 {
   position: absolute;
-  bottom: 40px;
-  left: 45px;
+  left: 32px;
+  bottom: 32px;
   font-size: 24px;
 }
 .added-to-cart {
   position: absolute;
-  bottom: 40px;
+  bottom: 32px;
   right: 20px;
   background-color: #f5621f;
   color: white;
@@ -590,9 +595,10 @@ button {
   top: 236px;
 }
 .product h3 {
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-size: 18px;
   color: #111111;
+  text-align: center;
 }
 .product-picture {
   position: absolute;
@@ -726,7 +732,7 @@ button {
 .turtle {
   width: 87%;
   margin: 0 auto;
-  background-color: #f5621f;
+  background-color: #f5ad00;
   position: relative;
   height: 200px;
   border-radius: 10px;
@@ -740,11 +746,15 @@ button {
 }
 .turtle p {
   color: white;
-  width: 300px;
+  max-width: 534px;
+  width: 100%;
   padding-left: 40px;
+  font-size: 32px;
+  padding-top: 46px;
 }
 .turtle button {
   margin-left: 40px;
+  margin-top: 20px;
 }
 .latest-update {
   width: 100%;
@@ -756,11 +766,6 @@ button {
   padding-left: 90px;
   font-size: 28px;
   color: #111111;
-}
-.latest-update h3 {
-  padding-right: 90px;
-  font-size: 14px;
-  color: #9c9c9c;
 }
 .buy-cart2 {
   width: 34px;
