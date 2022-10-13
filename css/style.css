@@ -1100,6 +1100,8 @@ main {
 iframe {
   display: block;
   height: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 .map-contact {
   display: flex;
@@ -1119,7 +1121,7 @@ iframe {
 }
 .map-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
