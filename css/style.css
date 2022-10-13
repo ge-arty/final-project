@@ -934,10 +934,52 @@ ul {
   align-items: center;
   justify-content: center;
 }
-
+@media (max-width: 1920px) {
+  .mobile-footer {
+    display: none;
+  }
+}
 @media (max-width: 1024px) {
   .four-box {
     justify-content: center;
+    gap: 10px;
+  }
+  .animals {
+    justify-content: center;
+  }
+  .top-product-titles h3 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-product-container {
+    justify-content: center;
+    gap: 10px;
+  }
+  .advertis-containers {
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 10px;
+  }
+  .turtle img {
+    right: -70px;
+  }
+  .all-brands h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brands-arrow-left {
+    display: none;
+  }
+  .brands-arrow-right {
+    display: none;
+  }
+  .brands-container {
+    justify-content: center;
     gap: 20px;
+  }
+  .mobile-footer {
+    display: none;
   }
 }
