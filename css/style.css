@@ -1019,6 +1019,8 @@ ul {
 
   .mobile-footer {
     display: block;
+    position: fixed;
+    bottom: 0;
   }
 
   .turtle p {
