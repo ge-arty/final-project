@@ -760,7 +760,7 @@ button {
   width: 100%;
   padding-left: 40px;
   font-size: 32px;
-  padding-top: 46px;
+  padding-top: 30px;
 }
 .turtle button {
   margin-left: 40px;
@@ -1027,7 +1027,7 @@ ul {
   }
 
   .turtle p {
-    padding-top: 0;
+    padding-top: 20px;
     padding-left: 20px;
   }
   .footer-container {
